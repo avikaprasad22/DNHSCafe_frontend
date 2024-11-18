@@ -129,7 +129,7 @@ body {
      */
     async function fetchGroups() {
         try {
-            const response = await fetch(${pythonURI}/api/groups/filter, {
+            const response = await fetch(${pythonURI}/api/groups/filter), {
                 ...fetchOptions,
                 method: 'POST',
                 headers: {
